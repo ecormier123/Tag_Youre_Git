@@ -2,6 +2,9 @@
 
 Welcome to our team collaboration project! This is a fun exercise designed to help us get more familiar with GitHub, specifically the process of cloning repositories, making changes, and opening pull requests. If anything looks duplicated or otherwise unclear, please correct it and provide a quick summary of any changes made.
 
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+
 ## How It Works
 
 1. Clone this repository to your local machine.
