@@ -87,18 +87,6 @@ In the pull request description, they can tag a member of the organization to re
 
 This way, you can ensure that external colleagues have the necessary permissions to fully participate in the project.
 
-## Requesting to Join the Project
-
-If you're not part of the organization and haven't been invited, but you're interested in joining the project, here's what you can do:
-
-1. Fork the Repository: Since the repository is public, you can create a fork of it in your own GitHub account. This gives you a copy of the repository that you can clone and work on.
-2. Make Some Changes: Clone the repository to your local machine, create a new branch, and make some changes. This could be fixing a bug, adding a new feature, improving the documentation, or any other contribution you think would be valuable.
-3. Open a Pull Request: Push your changes to your fork and open a pull request in the original repository. In the pull request description, explain your changes and express your interest in joining the project.
-4. Wait for Review: The repository maintainers will review your pull request. If your changes are approved, they'll be merged into the project.
-5. Request to Join: After making a contribution, you can request to join the organization. Contact a member of the organization, such as the repository owner, and express your interest in joining. They can then send you an invitation to join the organization.
-
-Remember, open source projects thrive on collaboration and contributions from a diverse range of people. Don't be shy about expressing your interest and making a contribution!
-
 ## Handling Merge Conflicts
 
 Merge conflicts occur when Git is unable to automatically resolve differences in code between two commits. While they can seem daunting, don't worry - they're a common part of the collaborative coding process. Here's a guide to understanding and resolving some of the most common merge conflicts.
