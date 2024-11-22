@@ -4,6 +4,10 @@
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone.
 
+## Values and Ethics Code for the Public Sector
+
+The [Values and Ethics Code for the Public Sector](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25049)
+
 ## Our Standards
 
 Examples of behavior that contributes to creating a positive environment include:

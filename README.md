@@ -1,37 +1,34 @@
-# Team Collaboration Project
+# Tag, You're Git!
+<small>2024-11-21</small>
 
-Welcome to our team collaboration project! This is a fun exercise designed to help us get more familiar with GitHub, specifically the process of cloning repositories, making changes, and opening pull requests. If anything looks duplicated or otherwise unclear, please correct it and provide a quick summary of any changes made.
+Welcome to PED's new github collaboration practice project! This is essentially a fun™ exercise designed to help us get more familiar with the collaborative aspects of GitHub (i.e. cloning repositories, making changes, and opening pull requests).
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+If you can read this (i.e. everyone listed [here](https://github.com/orgs/PopulationEcologyDivision/teams/everyone)), you've been granted permissions on this repo to create and delete files, merge pull requests, and push changes - essentially all of the same rights you'd have to your own repository. (If you notice someone in PED is missing from that list, please let @MMMcMahon know so he can add them)
 
+Many of us are comfortable cloning repositories, and making modifications, but often we keep those changes to ourselves.  Few of us get into branching and contributing to other people's code.  Pull requests help you propose changes to the team. They provide a platform for discussion, review, and eventually, integration of changes into the main project. This collaborative workflow is essential in a team setting as it ensures that projects can benefit from the collective expertise of the team.
 
-## How It Works
+Let's make sure that we're *choosing* to work on our own, and we're not limited by our ability to work with the collaborative aspects of git.  
 
-1. Clone this repository to your local machine.
-2. Create a new branch.
-3. Make some changes to the file(s) in the repository. Be creative!
-4. Commit your changes and push your branch to GitHub.
-5. Open a pull request and in the description, tag a team member to review your changes (using "@username").
-6. The tagged team member will review your changes, merge the pull request, and then repeat the process, tagging the next person in line.
+ (This repository is a private space within the [PopulationEcologyDivision](https://github.com/PopulationEcologyDivision/) github account, but I still added a [Contributor Code of Conduct](CODE_OF_CONDUCT.md) to remind us that to behave.) 
 
-Remember, the goal is to practice and learn, so don't be afraid to make mistakes. Let's have fun with this!
+**Nothing of importance exists here, and no assessments are going to fail if we mess anything up while we're learning.**
 
-## Forking vs Collaborating
+## Initial Setup (cloning the repo via RStudio)
 
-You may be used to forking repositories, making modifications, and keeping those changes to yourself. This approach is great for personal projects or when you want to experiment with a codebase without affecting the original project. However, in a collaborative environment, it's crucial to share your changes and improvements with the team. That's where branching and pull requests come in.
+Although you can work with this via numerous tools, I'll assume you're working with RStudio for any instructions below.  If you're using some other method, you probably don't need to read any instructions anyways.  :)
 
-Unlike forking, which creates a separate copy of the entire repository, branching allows you to isolate your changes within the same repository. This makes it easier for others to review your changes and incorporate them into the main project.
+Open RStudio and go to File > New Project > Version Control > Git. In the "Repository URL" field, paste the URL of the GitHub repository (https://github.com/PopulationEcologyDivision/Tag_Youre_Git.git). This will clone the repository to your local machine.
 
-Pull requests are the mechanism for proposing your changes to the team. They provide a platform for discussion, review, and eventually, integration of your changes into the main project. This collaborative workflow is essential in a team setting as it ensures everyone's contributions are recognized and the project benefits from the collective expertise of the team.
+## What To Do
+Once you've cloned the repo, you can try the following:
 
-So, while forking has its place, branching and pull requests are the tools that truly enable collaboration and shared progress in a project. Let's embrace this approach in our team collaboration project!
-
-## Initial Setup
-
-Open RStudio and go to File > New Project > Version Control > Git. In the "Repository URL" field, paste the URL of the GitHub repository. This will clone the repository to your local machine.
+1. Create a new branch.
+2. Add/change file(s) in the repository. 
+3. Commit your changes and push your branch to GitHub.
+4. Open a pull request and in the description, tag a team member to review your changes (using "@username").
+5. The tagged team member will (hopefully) review your changes, merge the pull request, and then repeat the process, tagging the next person in line.
 
 ## When You Are Tagged
-
 1. In RStudio, go to the "Git" tab and click on "Pull". This will update your local repository with the latest changes from GitHub.
 2. In the "Git" tab, click on "New Branch", enter a name for your branch, and click "Create".
 3. Make your changes to the file(s) in the repository.
@@ -46,15 +43,16 @@ Remember to always pull the latest changes from GitHub before starting work on a
 
 ## When You Need to Review and Merge a Pull Request
 
-1. You'll receive a notification on GitHub that you've been tagged in a pull request. Go to the repository page on GitHub and click on "Pull requests".
+1. If someone tags you, you'll receive a notification on GitHub that you've been tagged in a pull request. Go to the repository page on GitHub and click on "Pull requests".
 2. Click on the pull request you've been tagged in.
 3. Review the changes made. These will be shown under "Files changed".
 4. If everything looks good, click "Merge pull request" then "Confirm merge".
 5. Now it's your turn to repeat the process starting from step 1 in the "When You Are Tagged" section.
 
-Remember, the goal is to practice and learn. Don't be afraid to ask for help if you're unsure about something. Happy coding!
+Remember, the goal is to practice and learn. Don't be afraid to ask for help if you're unsure about something. You could use Teams, but rather hassling anyone in particular, I think we have a space we can use here, at the [Gitgub Discussion Board for this repo](https://github.com/PopulationEcologyDivision/Tag_Youre_Git/discussions)
 
 ## Participating Without Being Tagged
+You can jump in and contribute at any time, even if you haven't been tagged. By tagging someone in your pull request, you're effectively re-starting the game and re-engaging your team in the project.
 
 1. In RStudio, go to the "Git" tab and click on "Pull". This will update your local repository with the latest changes from GitHub.
 2. In the "Git" tab, click on "New Branch", enter a name for your branch, and click "Create".
@@ -65,7 +63,6 @@ Remember, the goal is to practice and learn. Don't be afraid to ask for help if 
 7. Go to the GitHub page for the repository. You'll see a message about your recently pushed branch. Click "Compare & pull request".
 8. On the next page, write a description for your changes. In the description, tag a team member to review your changes using "@username". Click "Create pull request".
 
-This way, you can jump in and contribute at any time, even if you haven't been tagged. By tagging someone in your pull request, you're effectively re-starting the game and re-engaging your team in the project.
 
 ## Inviting External Colleagues
 
@@ -76,16 +73,6 @@ This way, you can jump in and contribute at any time, even if you haven't been t
 5. Click on "Settings", then "Manage access".
 6. Click on "Invite teams or people", and enter the username of the new member.
 7. Make sure to set their permission level to "Write", which will allow them to push to the repository, pull requests, and merge pull requests.
-
-## Participating in the Project
-
-The external colleague should follow the "Initial Setup" instructions to clone the repository and set it up in RStudio.
-
-They can then follow the "Participating Without Being Tagged" instructions to create a new branch, make changes, and open a pull request.
-
-In the pull request description, they can tag a member of the organization to review their changes.
-
-This way, you can ensure that external colleagues have the necessary permissions to fully participate in the project.
 
 ## Handling Merge Conflicts
 
@@ -107,3 +94,6 @@ Merge conflicts occur when Git is unable to automatically resolve differences in
 Remember, when resolving conflicts, communication is key. If you're unsure about how to resolve a conflict, reach out to the person you're collaborating with. It's a team effort!
 
 This guide should help your team understand and resolve the most common types of merge conflicts.
+
+## Conclusion
+That's it.  I hope this is useful for people, and maybe even kind of fun.  If you have any suggestions, please let me know! 
