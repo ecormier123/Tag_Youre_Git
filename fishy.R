@@ -78,7 +78,7 @@ bubble_data <- data.frame(
 )
 
 # Move bubbles up
-for (i in 1:nrow(bubble_data)) {
+for (i in seq_len(nrow(bubble_data))) {
     bubble_data$y[i] <- bubble_data$y[i] + (bubble_data$frame[i] * 0.05)
     if (bubble_data$y[i] > 10) bubble_data$y[i] <- bubble_data$y[i] - 10
 }
