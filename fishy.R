@@ -102,7 +102,7 @@ p <- ggplot() +
     geom_polygon(
         data = fish_data[fish_data$part == "body", ],
         aes(x = x, y = y, group = frame),
-        fill = "orange", color = "purple", size = 1
+        fill = "blue", color = "purple", size = 1
     ) +
     # Tail
     geom_polygon(
